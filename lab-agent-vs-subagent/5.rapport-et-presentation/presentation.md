@@ -10,11 +10,25 @@ paginate: true
 # Agent vs Sub-agent
 ## Simple comparison
 
+- Apprenant: Marwan bouhamid
+- Encadrant: ES-SARRAJ FOUAD
+
 <!--
 This is the big idea.
 A principal agent can act alone or delegate.
 We explain the difference with a real example.
 -->
+
+---
+
+## Plan
+
+
+- what is agent and subagent
+- When to delgate?
+- Real demo
+- Deferent between agent and subagent
+
 
 ---
 
@@ -37,6 +51,7 @@ The principal checks the outcome.
 -->
 
 ---
+
 
 ## 2. When to delegate?
 
@@ -79,7 +94,6 @@ The principal combined the outputs.
 | Input | Before | After |
 |---|---:|---:|
 | `[80, 81]` | `81` | `80.5` |
-| `[]` | `null` | `null` |
 
 **PASS**
 
@@ -87,22 +101,6 @@ The principal combined the outputs.
 The review sub-agent found the rounding bug.
 The test then passed after the fix.
 This was observed in a real run.
--->
-
----
-
-## 5. Key takeaway
-
-- Delegation helps with scope.
-- It does not guarantee speed or lower cost.
-- Always verify the result.
-
-**Not verified:** delay gain, exact context isolation, exact per-agent cost.
-
-<!--
-Delegation is useful when the task is bounded.
-We still must check what the runtime actually does.
-The evidence matters more than the label.
 -->
 
 ---
