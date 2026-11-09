@@ -22,4 +22,5 @@ function checkThrows(string $exceptionClass, callable $operation, string $messag
     }
 
     check(false, "{$message} (no exception thrown)");
+    throw new LogicException('Unreachable');
 }
